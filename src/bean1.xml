@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="user" class="com.abdushukur.spring5.User"></bean>
+
+  <bean id="book" class="com.abdushukur.spring5.Book">
+    <property name="bname" value="Ahmet"></property>
+    <property name="bauthor" value="Adil"></property>
+    <!--null value-->
+<!--    <property name="address" >-->
+<!--      <null/>-->
+<!--    </property>-->
+<!--    <property name="address">-->
+<!--              <value><![CDATA[<<南京>>]]</value>-->
+<!--    </property>-->
+  </bean>
+
+  <bean id="orders" class="com.abdushukur.spring5.Orders">
+    <constructor-arg name="oname" value="Computer"></constructor-arg>
+    <constructor-arg name="address" value="Turkey"></constructor-arg>
+  </bean>
+
+<!--  2 set method inject properties-->
+<!--  <bean id="book" class="com.abdushukur.spring5.Book" p:bname="Harry Potter" p:bauthor="Albert">-->
+<!--  </bean>-->
+
+</beans>
