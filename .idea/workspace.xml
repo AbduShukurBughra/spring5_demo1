@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b0b58e6-be52-46d7-bcfe-cf143fc3216b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/bean/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/bean/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/testdemo/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/testdemo/TestSpring5.java" afterDir="false" />
+    <list default="true" id="0b0b58e6-be52-46d7-bcfe-cf143fc3216b" name="Changes" comment="Spring5 demo">
+      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/autowire/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/autowire/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/bean/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/collectiontype/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/collectiontype/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/collectiontype/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/factorybean/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/bean/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/bean/Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/dao/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/testdemo/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abdushukur/spring5/testdemo/TestSpring5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abdushukur/spring5/testdemo/TestSpring5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,79 +68,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/Desktop/spring5_demo2",
+    "last_opened_file_path": "C:/Users/HP/Desktop/spring5_demo2/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "a37040cd62dd373876f7ab709654202e"
+    "spring.configuration.checksum": "a250f86d8fe6605384974721f568a5ad"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\spring5_demo2\src" />
       <recent name="C:\Users\HP\Desktop" />
       <recent name="C:\Users\HP\Desktop\spring5_demo1" />
       <recent name="C:\Users\HP\IdeaProjects" />
       <recent name="C:\Users\HP\Desktop\spring5_demo1\src" />
-      <recent name="C:\Users\HP\Desktop\spring5_demo1\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\spring5_demo2\lib" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.abdushukur.spring5.testdemo" />
+      <recent name="com.abdushukur.spring5.collectiontype.testdemo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestBean.testBean3">
-    <configuration name="TestBean.testAdd" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="spring5_demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestBean" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBean.testBean2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="spring5_demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestBean" />
-      <option name="METHOD_NAME" value="testBean2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBean.testBean3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="spring5_demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestBean" />
-      <option name="METHOD_NAME" value="testBean3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSpring5.testAdd" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="spring5_demo1" />
+  <component name="RunManager" selected="TestNG.TestSpring5.test4">
+    <configuration name="TestSpring5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
@@ -145,16 +102,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
       <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestSpring5" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpring5.testBook1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="spring5_demo1" />
+    <configuration name="TestSpring5.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
@@ -163,7 +119,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
       <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestSpring5" />
-      <option name="METHOD_NAME" value="testBook1" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestSpring5" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testBean" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestSpring5" />
+      <option name="METHOD_NAME" value="testBean" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testCollection2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.abdushukur.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.abdushukur.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.abdushukur.spring5.testdemo.TestSpring5" />
+      <option name="METHOD_NAME" value="testCollection2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestBean.testBean3" />
-        <item itemvalue="TestNG.TestBean.testBean2" />
-        <item itemvalue="TestNG.TestBean.testAdd" />
-        <item itemvalue="TestNG.TestSpring5.testBook1" />
-        <item itemvalue="TestNG.TestSpring5.testAdd" />
+        <item itemvalue="TestNG.TestSpring5.test4" />
+        <item itemvalue="TestNG.TestSpring5.testBean" />
+        <item itemvalue="TestNG.TestSpring5.testCollection2" />
+        <item itemvalue="TestNG.TestSpring5.test3" />
+        <item itemvalue="TestNG.TestSpring5" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +203,27 @@
       <workItem from="1657645354741" duration="2369000" />
       <workItem from="1657650659400" duration="5217000" />
       <workItem from="1657658318794" duration="48000" />
+      <workItem from="1657658447659" duration="405000" />
+      <workItem from="1657658900471" duration="4000" />
+      <workItem from="1657659015727" duration="26000" />
+      <workItem from="1657659126314" duration="14707000" />
+      <workItem from="1657743238922" duration="166000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring5 demo">
+      <created>1657658520851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657658520852</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Spring5 demo">
+      <created>1657658617781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657658617781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,5 +239,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring5 demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring5 demo" />
   </component>
 </project>

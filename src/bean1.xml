@@ -2,27 +2,47 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-  <bean id="user" class="com.abdushukur.spring5.User"></bean>
+  <bean id="stu" class="com.abdushukur.spring5.collectiontype.Stu">
+    <property name="courses">
+      <array>
+        <value>Java Course</value>
+        <value>Database Course</value>
+      </array>
+    </property>
 
-  <bean id="book" class="com.abdushukur.spring5.Book">
-    <property name="bname" value="Ahmet"></property>
-    <property name="bauthor" value="Adil"></property>
-    <!--null value-->
-<!--    <property name="address" >-->
-<!--      <null/>-->
-<!--    </property>-->
-<!--    <property name="address">-->
-<!--              <value><![CDATA[<<南京>>]]</value>-->
-<!--    </property>-->
+    <property name="list">
+      <list>
+        <value>Ahmet</value>
+        <value>Adil</value>
+      </list>
+    </property>
+
+    <property name="maps">
+      <map>
+        <entry key="JAVA" value="java"></entry>
+        <entry key="PHP" value="php"></entry>
+      </map>
+    </property>
+
+    <property name="sets">
+      <set>
+        <value>MySQL</value>
+        <value>Redis</value>
+      </set>
+    </property>
+    <property name="courseList">
+            <list>
+              <ref bean="course1"></ref>
+              <ref bean="course2"></ref>
+            </list>
+    </property>
   </bean>
 
-  <bean id="orders" class="com.abdushukur.spring5.Orders">
-    <constructor-arg name="oname" value="Computer"></constructor-arg>
-    <constructor-arg name="address" value="Turkey"></constructor-arg>
+  <bean name="course1" class="com.abdushukur.spring5.collectiontype.Course">
+    <property name="cname" value="Spring5 framework"></property>
   </bean>
-
-<!--  2 set method inject properties-->
-<!--  <bean id="book" class="com.abdushukur.spring5.Book" p:bname="Harry Potter" p:bauthor="Albert">-->
-<!--  </bean>-->
+  <bean name="course2" class="com.abdushukur.spring5.collectiontype.Course">
+    <property name="cname" value="MyBatis framework"></property>
+  </bean>
 
 </beans>

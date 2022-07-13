@@ -7,7 +7,6 @@
                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 
-    <bean id="orders" class="com.abdushukur.spring5.bean.Orders" init-method="initMethod" destroy-method="destroyMethod">
-        <property name="oname" value="Iphone"></property>
-    </bean>
+    <bean id="emp" class="com.abdushukur.spring5.autowire.Emp" autowire="byType"></bean>
+    <bean id="dept" class="com.abdushukur.spring5.autowire.Dept"></bean>
 </beans>
